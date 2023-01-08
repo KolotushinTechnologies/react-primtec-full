@@ -1,0 +1,81 @@
+.inputBox > span{
+    font-family: 'Montserrat', sans-serif;
+    animation: sliding 14s linear infinite;
+    display: block;
+}
+@keyframes sliding{
+    0%{
+      transform: translateX(-70%);
+    }
+    100%{
+      transform: translateX(130%);
+    }
+  }
+
+.Header__topbar {
+  background: -webkit-linear-gradient(45deg, rgb(123, 2, 234), rgb(165, 83, 184));
+  background: -moz-linear-gradient(45deg, rgb(123, 2, 234), rgb(165, 83, 184));
+  background: linear-gradient(45deg, rgb(123, 2, 234), rgb(165, 83, 184));
+  background-size: 400% 400%;
+  color: "#fff";
+  animation: gradient 5s ease infinite;
+}
+
+.header__city-state {
+  padding: 10px;
+  background: #673ab7;
+  margin: 0 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.city__item {
+  padding: 10px;
+  background: #673ab7;
+  color: #fff;
+  margin: 0 25px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* .header__links.active__links {
+  color: #fff;
+} */
+
+.logo__start {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo__phone {
+  margin: 0 0 0 30px;
+}
+
+.logo-link__header {
+  display: inline-flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.link__header {
+  margin: 10px;
+  color: #fff;
+}

@@ -1,0 +1,50 @@
+.post__details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-post__details {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.first-section-post__details {
+    margin: 5vmax auto;
+    border-radius: 40px;
+    padding: 10px;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0 0 80px rgb(0 0 0 / 10%);
+}
+
+.title-post__details {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.title-post__details span {
+    text-align: end;
+    font-size: 14px;
+    color: #212121;
+}
+
+.text-content-post__details {
+    padding: 15px;
+}
+
+.second-section-post__details {
+    margin: 20px;
+}
+
+.second-section-post__details > .post__home {
+    width: 300px !important;
+}
+
+@media screen and (max-width: 850px) {
+    .first-section-post__details {
+        margin: 12vmax auto;
+    }
+}
