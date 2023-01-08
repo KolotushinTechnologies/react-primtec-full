@@ -1,6 +1,8 @@
 // Import Engine
 import React from "react";
 import { Link } from "react-router-dom";
+
+// Import Material UI Components
 import { Rating } from "@material-ui/lab";
 const ProductCard = ({ product }) => {
   const options = {
